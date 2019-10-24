@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>361517549410-ee62iudetla7rlm952hbc5li0tbmd12v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.361517549410-ee62iudetla7rlm952hbc5li0tbmd12v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxF0s2PC8YT7zsO1-pXIX_VwCb98cdxyE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>361517549410</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.smartsong.HealthGraph</string>
+	<key>PROJECT_ID</key>
+	<string>fitness-project-195723</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fitness-project-195723.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:361517549410:ios:4641253d8bd31e08</string>
+	<key>DATABASE_URL</key>
+	<string>https://fitness-project-195723.firebaseio.com</string>
+</dict>
+</plist>

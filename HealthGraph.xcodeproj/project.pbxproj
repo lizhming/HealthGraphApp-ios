@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15026B6A3540ED3CF94B5A50 /* Pods_HealthGraphUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF35888B83BA703F6A597385 /* Pods_HealthGraphUITests.framework */; };
+		2C61C7CD65E942CADA2CE10C /* Pods_HealthGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C02D2A2E1AFC0063EFF414 /* Pods_HealthGraph.framework */; };
+		AD2114AB203DC73600C83DD3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD2114AA203DC73600C83DD3 /* GoogleService-Info.plist */; };
+		AD2114AD203DE40100C83DD3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2114AC203DE40100C83DD3 /* LoginViewController.swift */; };
+		AD35A88E2045824F00D49166 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD35A88D2045824F00D49166 /* Login.storyboard */; };
+		AD35A8A32045A3B600D49166 /* TermsAndCondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35A89D2045A3B600D49166 /* TermsAndCondViewController.swift */; };
+		AD35A8A42045A3B600D49166 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35A89E2045A3B600D49166 /* ForgotPasswordViewController.swift */; };
+		AD35A8A52045A3B600D49166 /* CountryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35A89F2045A3B600D49166 /* CountryTableViewController.swift */; };
+		AD35A8A62045A3B600D49166 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35A8A02045A3B600D49166 /* LoginTableViewController.swift */; };
+		AD35A8A82045A3B600D49166 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD35A8A22045A3B600D49166 /* SignUpViewController.swift */; };
+		AD5CCF8B203DF31A0001E8A0 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5CCF8A203DF31A0001E8A0 /* ItemTableViewController.swift */; };
+		AD8F5BE020288EC000E12B14 /* ExcerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F5BDF20288EC000E12B14 /* ExcerciseTableViewController.swift */; };
+		AD8F5BE52028A8C100E12B14 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8F5BE42028A8C100E12B14 /* HealthKit.framework */; };
+		AD8F5BE92028AEC700E12B14 /* WorkoutDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F5BE62028AEC700E12B14 /* WorkoutDataStore.swift */; };
+		AD8F5BEA2028AEC700E12B14 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F5BE72028AEC700E12B14 /* HealthKitSetupAssistant.swift */; };
+		AD8F5BEB2028AEC700E12B14 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F5BE82028AEC700E12B14 /* ProfileDataStore.swift */; };
+		ADAE365F202887150085069B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE365E202887150085069B /* AppDelegate.swift */; };
+		ADAE3661202887150085069B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE3660202887150085069B /* ViewController.swift */; };
+		ADAE3664202887150085069B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAE3662202887150085069B /* Main.storyboard */; };
+		ADAE3666202887150085069B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAE3665202887150085069B /* Assets.xcassets */; };
+		ADAE3669202887150085069B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAE3667202887150085069B /* LaunchScreen.storyboard */; };
+		ADAE3674202887160085069B /* HealthGraphTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE3673202887160085069B /* HealthGraphTests.swift */; };
+		ADAE367F202887160085069B /* HealthGraphUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAE367E202887160085069B /* HealthGraphUITests.swift */; };
+		E5C132AFBE3CCFF533F1AA16 /* Pods_HealthGraphTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7D92E78F42E2157A999270 /* Pods_HealthGraphTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAE3670202887160085069B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAE3653202887150085069B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAE365A202887150085069B;
+			remoteInfo = HealthGraph;
+		};
+		ADAE367B202887160085069B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAE3653202887150085069B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAE365A202887150085069B;
+			remoteInfo = HealthGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055FF575743CC4A8A63A12DA /* Pods-HealthGraphUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraphUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraphUITests/Pods-HealthGraphUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1528CF7EE8173277CEF08501 /* Pods-HealthGraphTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraphTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraphTests/Pods-HealthGraphTests.release.xcconfig"; sourceTree = "<group>"; };
+		1EFBF996F763FF0A0108EA1B /* Pods-HealthGraph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraph.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraph/Pods-HealthGraph.debug.xcconfig"; sourceTree = "<group>"; };
+		897D95E7A15BF4DDDF3450FD /* Pods-HealthGraphUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraphUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraphUITests/Pods-HealthGraphUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1C02D2A2E1AFC0063EFF414 /* Pods_HealthGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27A0F122A5F17454F2855F7 /* Pods-HealthGraph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraph.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraph/Pods-HealthGraph.release.xcconfig"; sourceTree = "<group>"; };
+		AD2114AA203DC73600C83DD3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD2114AC203DE40100C83DD3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AD35A88D2045824F00D49166 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		AD35A89D2045A3B600D49166 /* TermsAndCondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndCondViewController.swift; sourceTree = "<group>"; };
+		AD35A89E2045A3B600D49166 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		AD35A89F2045A3B600D49166 /* CountryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewController.swift; sourceTree = "<group>"; };
+		AD35A8A02045A3B600D49166 /* LoginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		AD35A8A22045A3B600D49166 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AD5CCF8A203DF31A0001E8A0 /* ItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		AD8F5BDF20288EC000E12B14 /* ExcerciseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseTableViewController.swift; sourceTree = "<group>"; };
+		AD8F5BE32028A8C100E12B14 /* HealthGraph.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthGraph.entitlements; sourceTree = "<group>"; };
+		AD8F5BE42028A8C100E12B14 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		AD8F5BE62028AEC700E12B14 /* WorkoutDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkoutDataStore.swift; path = "../../temp/Prancercise-Tracker-Part-1-Final-2/Prancercise Tracker Part 1 Final/Prancercise Tracker/WorkoutDataStore.swift"; sourceTree = "<group>"; };
+		AD8F5BE72028AEC700E12B14 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthKitSetupAssistant.swift; path = "../../temp/Prancercise-Tracker-Part-1-Final-2/Prancercise Tracker Part 1 Final/Prancercise Tracker/HealthKitSetupAssistant.swift"; sourceTree = "<group>"; };
+		AD8F5BE82028AEC700E12B14 /* ProfileDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileDataStore.swift; path = "../../temp/Prancercise-Tracker-Part-1-Final-2/Prancercise Tracker Part 1 Final/Prancercise Tracker/ProfileDataStore.swift"; sourceTree = "<group>"; };
+		ADAE365B202887150085069B /* HealthGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE365E202887150085069B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADAE3660202887150085069B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADAE3663202887150085069B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAE3665202887150085069B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADAE3668202887150085069B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADAE366A202887150085069B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE366F202887160085069B /* HealthGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE3673202887160085069B /* HealthGraphTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGraphTests.swift; sourceTree = "<group>"; };
+		ADAE3675202887160085069B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE367A202887160085069B /* HealthGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE367E202887160085069B /* HealthGraphUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGraphUITests.swift; sourceTree = "<group>"; };
+		ADAE3680202887160085069B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7D92E78F42E2157A999270 /* Pods_HealthGraphTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGraphTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D1289FD74CF794A2B08B9E /* Pods-HealthGraphTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthGraphTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthGraphTests/Pods-HealthGraphTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF35888B83BA703F6A597385 /* Pods_HealthGraphUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthGraphUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAE3658202887150085069B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C61C7CD65E942CADA2CE10C /* Pods_HealthGraph.framework in Frameworks */,
+				AD8F5BE52028A8C100E12B14 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE366C202887160085069B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C132AFBE3CCFF533F1AA16 /* Pods_HealthGraphTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE3677202887160085069B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15026B6A3540ED3CF94B5A50 /* Pods_HealthGraphUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD35A88F2045A35000D49166 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AD35A8902045A35900D49166 /* SignIn */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AD35A8902045A35900D49166 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				AD35A89F2045A3B600D49166 /* CountryTableViewController.swift */,
+				AD35A89E2045A3B600D49166 /* ForgotPasswordViewController.swift */,
+				AD35A8A02045A3B600D49166 /* LoginTableViewController.swift */,
+				AD35A8A22045A3B600D49166 /* SignUpViewController.swift */,
+				AD35A89D2045A3B600D49166 /* TermsAndCondViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		ADAE3652202887150085069B = {
+			isa = PBXGroup;
+			children = (
+				ADAE365D202887150085069B /* HealthGraph */,
+				ADAE3672202887160085069B /* HealthGraphTests */,
+				ADAE367D202887160085069B /* HealthGraphUITests */,
+				ADAE365C202887150085069B /* Products */,
+				D7F9807452F330C8190A18B9 /* Pods */,
+				F77F855B775DC8AA4D04C933 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAE365C202887150085069B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE365B202887150085069B /* HealthGraph.app */,
+				ADAE366F202887160085069B /* HealthGraphTests.xctest */,
+				ADAE367A202887160085069B /* HealthGraphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAE365D202887150085069B /* HealthGraph */ = {
+			isa = PBXGroup;
+			children = (
+				AD35A88F2045A35000D49166 /* Class */,
+				AD2114AA203DC73600C83DD3 /* GoogleService-Info.plist */,
+				AD8F5BE72028AEC700E12B14 /* HealthKitSetupAssistant.swift */,
+				AD8F5BE82028AEC700E12B14 /* ProfileDataStore.swift */,
+				AD8F5BE62028AEC700E12B14 /* WorkoutDataStore.swift */,
+				AD8F5BE32028A8C100E12B14 /* HealthGraph.entitlements */,
+				ADAE365E202887150085069B /* AppDelegate.swift */,
+				ADAE3660202887150085069B /* ViewController.swift */,
+				ADAE3662202887150085069B /* Main.storyboard */,
+				ADAE3665202887150085069B /* Assets.xcassets */,
+				ADAE3667202887150085069B /* LaunchScreen.storyboard */,
+				ADAE366A202887150085069B /* Info.plist */,
+				AD8F5BDF20288EC000E12B14 /* ExcerciseTableViewController.swift */,
+				AD2114AC203DE40100C83DD3 /* LoginViewController.swift */,
+				AD5CCF8A203DF31A0001E8A0 /* ItemTableViewController.swift */,
+				AD35A88D2045824F00D49166 /* Login.storyboard */,
+			);
+			path = HealthGraph;
+			sourceTree = "<group>";
+		};
+		ADAE3672202887160085069B /* HealthGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE3673202887160085069B /* HealthGraphTests.swift */,
+				ADAE3675202887160085069B /* Info.plist */,
+			);
+			path = HealthGraphTests;
+			sourceTree = "<group>";
+		};
+		ADAE367D202887160085069B /* HealthGraphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE367E202887160085069B /* HealthGraphUITests.swift */,
+				ADAE3680202887160085069B /* Info.plist */,
+			);
+			path = HealthGraphUITests;
+			sourceTree = "<group>";
+		};
+		D7F9807452F330C8190A18B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EFBF996F763FF0A0108EA1B /* Pods-HealthGraph.debug.xcconfig */,
+				A27A0F122A5F17454F2855F7 /* Pods-HealthGraph.release.xcconfig */,
+				E4D1289FD74CF794A2B08B9E /* Pods-HealthGraphTests.debug.xcconfig */,
+				1528CF7EE8173277CEF08501 /* Pods-HealthGraphTests.release.xcconfig */,
+				055FF575743CC4A8A63A12DA /* Pods-HealthGraphUITests.debug.xcconfig */,
+				897D95E7A15BF4DDDF3450FD /* Pods-HealthGraphUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F77F855B775DC8AA4D04C933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8F5BE42028A8C100E12B14 /* HealthKit.framework */,
+				A1C02D2A2E1AFC0063EFF414 /* Pods_HealthGraph.framework */,
+				DC7D92E78F42E2157A999270 /* Pods_HealthGraphTests.framework */,
+				FF35888B83BA703F6A597385 /* Pods_HealthGraphUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAE365A202887150085069B /* HealthGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE3683202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraph" */;
+			buildPhases = (
+				550CA8325E2ABEAA91FAF875 /* [CP] Check Pods Manifest.lock */,
+				ADAE3657202887150085069B /* Sources */,
+				ADAE3658202887150085069B /* Frameworks */,
+				ADAE3659202887150085069B /* Resources */,
+				41E056EB7B3170E02020CAEE /* [CP] Embed Pods Frameworks */,
+				0EDA9302E6BA80EABD6DAB8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthGraph;
+			productName = HealthGraph;
+			productReference = ADAE365B202887150085069B /* HealthGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAE366E202887160085069B /* HealthGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE3686202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraphTests" */;
+			buildPhases = (
+				3AE8E2BE89AC9CDB809F1ECA /* [CP] Check Pods Manifest.lock */,
+				ADAE366B202887160085069B /* Sources */,
+				ADAE366C202887160085069B /* Frameworks */,
+				ADAE366D202887160085069B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAE3671202887160085069B /* PBXTargetDependency */,
+			);
+			name = HealthGraphTests;
+			productName = HealthGraphTests;
+			productReference = ADAE366F202887160085069B /* HealthGraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADAE3679202887160085069B /* HealthGraphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE3689202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraphUITests" */;
+			buildPhases = (
+				EDC4D65F403AEC85CF1BB13A /* [CP] Check Pods Manifest.lock */,
+				ADAE3676202887160085069B /* Sources */,
+				ADAE3677202887160085069B /* Frameworks */,
+				ADAE3678202887160085069B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAE367C202887160085069B /* PBXTargetDependency */,
+			);
+			name = HealthGraphUITests;
+			productName = HealthGraphUITests;
+			productReference = ADAE367A202887160085069B /* HealthGraphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAE3653202887150085069B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = flymax;
+				TargetAttributes = {
+					ADAE365A202887150085069B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					ADAE366E202887160085069B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADAE365A202887150085069B;
+					};
+					ADAE3679202887160085069B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ADAE365A202887150085069B;
+					};
+				};
+			};
+			buildConfigurationList = ADAE3656202887150085069B /* Build configuration list for PBXProject "HealthGraph" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAE3652202887150085069B;
+			productRefGroup = ADAE365C202887150085069B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAE365A202887150085069B /* HealthGraph */,
+				ADAE366E202887160085069B /* HealthGraphTests */,
+				ADAE3679202887160085069B /* HealthGraphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAE3659202887150085069B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE3669202887150085069B /* LaunchScreen.storyboard in Resources */,
+				AD2114AB203DC73600C83DD3 /* GoogleService-Info.plist in Resources */,
+				ADAE3666202887150085069B /* Assets.xcassets in Resources */,
+				AD35A88E2045824F00D49166 /* Login.storyboard in Resources */,
+				ADAE3664202887150085069B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE366D202887160085069B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE3678202887160085069B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EDA9302E6BA80EABD6DAB8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthGraph/Pods-HealthGraph-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthGraph/Pods-HealthGraph-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AE8E2BE89AC9CDB809F1ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthGraphTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E056EB7B3170E02020CAEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HealthGraph/Pods-HealthGraph-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FSLineChart/FSLineChart.framework",
+				"${BUILT_PRODUCTS_DIR}/Firebase/Firebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSLineChart.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Firebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HealthGraph/Pods-HealthGraph-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		550CA8325E2ABEAA91FAF875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthGraph-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC4D65F403AEC85CF1BB13A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthGraphUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAE3657202887150085069B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD2114AD203DE40100C83DD3 /* LoginViewController.swift in Sources */,
+				ADAE3661202887150085069B /* ViewController.swift in Sources */,
+				AD35A8A52045A3B600D49166 /* CountryTableViewController.swift in Sources */,
+				AD8F5BEB2028AEC700E12B14 /* ProfileDataStore.swift in Sources */,
+				AD8F5BE020288EC000E12B14 /* ExcerciseTableViewController.swift in Sources */,
+				AD35A8A62045A3B600D49166 /* LoginTableViewController.swift in Sources */,
+				ADAE365F202887150085069B /* AppDelegate.swift in Sources */,
+				AD8F5BE92028AEC700E12B14 /* WorkoutDataStore.swift in Sources */,
+				AD35A8A82045A3B600D49166 /* SignUpViewController.swift in Sources */,
+				AD35A8A42045A3B600D49166 /* ForgotPasswordViewController.swift in Sources */,
+				AD5CCF8B203DF31A0001E8A0 /* ItemTableViewController.swift in Sources */,
+				AD35A8A32045A3B600D49166 /* TermsAndCondViewController.swift in Sources */,
+				AD8F5BEA2028AEC700E12B14 /* HealthKitSetupAssistant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE366B202887160085069B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE3674202887160085069B /* HealthGraphTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE3676202887160085069B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE367F202887160085069B /* HealthGraphUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAE3671202887160085069B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAE365A202887150085069B /* HealthGraph */;
+			targetProxy = ADAE3670202887160085069B /* PBXContainerItemProxy */;
+		};
+		ADAE367C202887160085069B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAE365A202887150085069B /* HealthGraph */;
+			targetProxy = ADAE367B202887160085069B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAE3662202887150085069B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE3663202887150085069B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAE3667202887150085069B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE3668202887150085069B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAE3681202887160085069B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADAE3682202887160085069B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAE3684202887160085069B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EFBF996F763FF0A0108EA1B /* Pods-HealthGraph.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthGraph/HealthGraph.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R82LQRSA29;
+				INFOPLIST_FILE = HealthGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsong.HealthGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADAE3685202887160085069B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27A0F122A5F17454F2855F7 /* Pods-HealthGraph.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthGraph/HealthGraph.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R82LQRSA29;
+				INFOPLIST_FILE = HealthGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartsong.HealthGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADAE3687202887160085069B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D1289FD74CF794A2B08B9E /* Pods-HealthGraphTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthGraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhmt.HealthGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthGraph.app/HealthGraph";
+			};
+			name = Debug;
+		};
+		ADAE3688202887160085069B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1528CF7EE8173277CEF08501 /* Pods-HealthGraphTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthGraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhmt.HealthGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthGraph.app/HealthGraph";
+			};
+			name = Release;
+		};
+		ADAE368A202887160085069B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055FF575743CC4A8A63A12DA /* Pods-HealthGraphUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthGraphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhmt.HealthGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthGraph;
+			};
+			name = Debug;
+		};
+		ADAE368B202887160085069B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897D95E7A15BF4DDDF3450FD /* Pods-HealthGraphUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HealthGraphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhmt.HealthGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthGraph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAE3656202887150085069B /* Build configuration list for PBXProject "HealthGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE3681202887160085069B /* Debug */,
+				ADAE3682202887160085069B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE3683202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE3684202887160085069B /* Debug */,
+				ADAE3685202887160085069B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE3686202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE3687202887160085069B /* Debug */,
+				ADAE3688202887160085069B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE3689202887160085069B /* Build configuration list for PBXNativeTarget "HealthGraphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE368A202887160085069B /* Debug */,
+				ADAE368B202887160085069B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAE3653202887150085069B /* Project object */;
+}
